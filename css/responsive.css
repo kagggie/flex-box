@@ -1,0 +1,35 @@
+@media all and (max-width: 992px){
+    #center-section {
+        flex-wrap: wrap;
+    }
+    #center-section #aside-left {
+        flex-basis: 100%;
+        order: 3;
+    }
+    #center-section #section {
+         flex-basis: 75%;
+         order: 1;
+    }
+    #center-section #aside-right {
+         flex-basis: 25%;
+         order: 2;
+    }
+}
+
+@media all and (max-width: 768px){
+    #center-section {
+        flex-direction: column;
+    }
+        #center-section #aside-left {
+        order: 2;
+        flex-grow: 1;
+    }
+    #center-section #section {
+        order: 1;
+        flex-grow: 1;
+    }
+    #center-section #aside-right {
+        order: 3;
+        flex-grow: 1;
+    }
+}
