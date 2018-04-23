@@ -22,14 +22,11 @@
     }
         #center-section #aside-left {
         order: 2;
-        flex-grow: 1;
     }
     #center-section #section {
         order: 1;
-        flex-grow: 1;
     }
     #center-section #aside-right {
         order: 3;
-        flex-grow: 1;
     }
 }
